@@ -1,0 +1,136 @@
+* {
+
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.caixa-principal {
+    height: 100vh;
+    width: 100%;
+    background-color: #191919;
+    background-position: center;
+
+
+
+}
+
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 30px;
+
+
+}
+
+.portifolio {
+    color: #ffffff;
+    font-size: 35px;
+
+}
+
+.portifolio span {
+    color: #f9004d;
+
+}
+
+li {
+    color: white;
+    list-style: none;
+    display: inline-block;
+    font-size: 30px;
+    margin-right: 30px;
+    cursor: pointer;
+
+}
+
+li:hover {
+    color: #f9004d;
+    transition: 0.5;
+}
+
+.meu-nome {
+
+    position: absolute;
+    top: 50%;
+    left: 7%;
+
+}
+
+h1 {
+
+    color: #ffffff;
+    font-size: 75px;
+}
+
+h1 span {
+
+    color: #f9004d;
+
+}
+
+h3 {
+    color: #ffffff;
+}
+
+seaction {
+
+    display: flex;
+    align-items: center;
+   padding: 60px 15% ;
+   background: black;
+}
+
+seaction img {
+
+    height: 500px;
+    border-radius: 50% ;
+    border: 2px solid #f9004d ;
+    margin-right: 50px;
+
+              }
+
+
+.foto-principal {
+
+    width: 1667px;
+    height: 582px;
+    margin-top: 20px;
+    
+}
+
+h2 {
+    color:#ffffff;
+    font-size: 50px;
+}
+
+
+p {
+
+    color: #da9393;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 30%;
+    height: 30% ;
+}
+button {
+
+    color:#ffffff ;
+background: #f9004d;
+height: 45px;
+width: 150px;
+border-radius: 10px;
+cursor: pointer;
+    
+}
+
+button:hover  {
+    background: black;
+    border: 3px solid #f9004d;
+    transition: 0.5s;
+}
