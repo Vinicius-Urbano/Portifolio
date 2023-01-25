@@ -11,6 +11,7 @@
     width: 100%;
     background-color: #191919;
     background-position: center;
+    background-image: url(./img/foto\ principal\ portifolio.png);
 
 
 
@@ -96,13 +97,8 @@ seaction img {
               }
 
 
-.foto-principal {
 
-    width: 1667px;
-    height: 582px;
-    margin-top: 20px;
-    
-}
+
 
 h2 {
     color:#ffffff;
@@ -133,4 +129,9 @@ button:hover  {
     background: black;
     border: 3px solid #f9004d;
     transition: 0.5s;
+}
+
+.foto-centro {
+
+    background: center;
 }
