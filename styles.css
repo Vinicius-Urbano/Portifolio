@@ -6,16 +6,14 @@
     font-family: 'Josefin Sans', sans-serif;
 }
 
-.caixa-principal {
+.caixa-principal { 
     height: 100vh;
     width: 100%;
     background-color: #191919;
     background-position: center;
-    background-image: url(./img/foto\ principal\ portifolio.png);
-
-
-
+    background-image: url(./img/foto\ principal\ portifolio.png) ;
 }
+
 
 
 nav {
@@ -135,3 +133,4 @@ button:hover  {
 
     background: center;
 }
+
