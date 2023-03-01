@@ -4,6 +4,7 @@
     padding: 0px;
     box-sizing: border-box;
     font-family: 'Josefin Sans', sans-serif;
+    
 }
 
 .caixa-principal {
@@ -25,6 +26,7 @@ nav {
     padding-left: 30px;
     padding-right: 30px;
     padding-top: 30px;
+   
 
 
 }
@@ -47,6 +49,7 @@ li {
     font-size: 30px;
     margin-right: 30px;
     cursor: pointer;
+    position: relative;
 
 }
 
@@ -135,3 +138,134 @@ button:hover  {
 
     background: center;
 }
+
+.projetos {
+    background-color: #191919;
+    padding-top: 50px;
+    padding-bottom: 100px;
+   
+
+
+}
+.projetos h2 {
+    color: white;
+    font-size: 75px;
+    text-align: center;
+}
+.card {
+   background-color: black;
+height: 365px;
+width: 335px;
+border-radius: 20px;
+padding: 20px 35px;
+text-align: center;
+    
+}
+.card img {
+    height: 100px;
+    border-radius: 20px;
+
+}
+.card h5 {
+
+    color: white;
+    font-size: 25px;
+    
+}
+.card p {
+    color: #da9393;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    
+    width: 100%;
+}
+.card a {
+    background-color: #f9004d;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: 0.5;
+    text-decoration:none; 
+
+}
+.card a:hover {
+    background-color: transparent;
+    border: 2px solid #f9004d;
+}
+.card-projetos {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+    
+   
+
+
+}
+
+footer {
+    background-color: #000000;
+    padding-top: 100px;
+    padding-bottom: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+footer h5 {
+    color: white;
+    font-size: 50px;
+}
+
+footer p {
+    color: white;
+    font-size: 25px;
+    margin-bottom: 30px;
+    margin-top: 14px;
+    margin-left: 250px;
+}
+.social {
+    display: flex;
+    gap: 20px;
+
+}
+
+.social img {
+    height: 25px;
+    border-radius: 50%;
+
+}
+
+.social a {
+    background-color: #f9004d;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    height: 50px;
+    width: 50px;
+    justify-content: center;
+    cursor: pointer;
+    
+
+}
+.social a:hover {
+    transform: scale(1.3);
+    transition: 0.5s;
+}
+
+a:link{
+    text-decoration:none;
+    
+}
+
+a:hover {
+    text-decoration:none;
+    color: #f9004d;
+    transform: scale(1.3);
+ 
+}
+a {
+    color: #ffffff;
+}
+
